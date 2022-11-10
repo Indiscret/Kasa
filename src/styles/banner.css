@@ -1,0 +1,35 @@
+.Banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 223px;
+}
+
+.Banner_title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 500;
+    z-index: 3;
+}
+
+.Banner_bg_dark {
+    height: 223px;
+    width: 100%;
+    max-width: 1240px;
+    position: absolute;
+    background-color: #000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.Banner_img {
+    background: url(../assets/Banner_Home_Desktop.png);
+    height: 223px;
+    width: 100%;
+    max-width: 1240px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 25px;
+}

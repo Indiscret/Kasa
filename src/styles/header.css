@@ -1,0 +1,29 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px 63px;
+}
+
+.Header_logo {
+    width: 210px;
+    height: 68px;
+}
+
+.Header_nav {
+    display: flex;
+    justify-content: space-around;
+    width: 309px;
+}
+
+.Header_link {
+    font-weight: 500;
+    font-size: 24px;
+    color: #ff6060;
+    text-decoration: none;
+}
+
+.Header_link:hover {
+    text-decoration: underline;
+}
+
