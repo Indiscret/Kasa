@@ -1,6 +1,17 @@
+import "../../styles/about.css";
+import BannerAbout from '../../components/Banner/bannerAbout';
+import AboutDropdown from "../../components/Dropdown/aboutDropdown";
+import { accordion } from '../../datas/accordion';
+
 function About () {
-    return (<div>
-        <h1>A propos</h1>
+    return (
+    <div>
+        <BannerAbout/>
+        <div className="Dropdown">
+            {accordion.map (({title, content}) => (
+                <AboutDropdown title={title} content={content} />
+            ))}
+        </div>
     </div>)
 }
 
