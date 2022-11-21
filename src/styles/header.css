@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 100px 63px;
+    margin: 40px 100px;
 }
 
 .Header_logo {
@@ -21,9 +21,5 @@
     font-size: 24px;
     color: #ff6060;
     text-decoration: none;
-}
-
-.Header_link:hover {
-    text-decoration: underline;
 }
 

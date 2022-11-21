@@ -9,6 +9,7 @@ function Router() {
         <div>
             <Routes>
                 <Route path='/' element={<Home/>} />
+                <Route path='/lodgings/*' element={<Error />} />
                 <Route path='/lodgings/:id' element={<Lodgings/>} />
                 <Route path='/about' element={<About/>} />
                 <Route path='/*' element={<Error/>} />

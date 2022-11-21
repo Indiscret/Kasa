@@ -1,0 +1,50 @@
+.Carousel {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.content {
+    margin: 0 40px;
+}
+
+.Carousel_p {
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 24px;
+    height: 32px;
+    top: 357.5px;
+    left: 647px;
+}
+
+.carousel_img {
+    width: 100%;
+    object-fit: cover;
+    height: 415px;
+    border-radius: 25px;
+}
+
+.Left_Arrow {
+    position: absolute;
+    left: 23px;
+    bottom: 179px;
+    width: 46.5px;
+    height: 79px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+
+.Right_Arrow {
+    position: absolute;
+    right: 23px;
+    bottom: 179px;
+    width: 46.5px;
+    height: 79px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+

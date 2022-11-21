@@ -1,0 +1,94 @@
+.Lodgings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Lodgings_contain {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+}
+
+.Lodgings_title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #ff6060;
+}
+.Lodgings_location {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff6060;
+    margin: 5px 0 20px;
+}
+.Lodgings_location_tags {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.Lodgings_tag {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ff6060;
+    height: 25px;
+    padding: 0 17px;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.host_contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.host {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.host_list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.host_name {
+    font-size: 18px;
+    color: #ff6060;
+    font-weight: 500;
+    width: 93px;
+    text-align: right;
+    margin: 0 10px 0;
+}
+.host_img {
+    border-radius: 30px;
+    height: 64px;
+    width: 64px;
+}
+
+.rating {
+    margin: 20px ;
+}
+
+.rating_star {
+    padding-left: 9px;
+}
+.Dropdown_lodgings {
+   display: flex;
+   column-gap: 76px;
+}
+.Dropdown {
+    width: 100%;
+}
+
+.Dropdown_btn {
+    font-size: 18px;
+    border-radius: 10px;
+    height: 52px;
+    font-weight: 500;
+}
+.Dropdown_equipement {
+    list-style-type: none;
+    padding-left: 0;
+}
