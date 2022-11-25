@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 223px;
+    margin-top: 20px;
 }
 
 .BannerAbout_bg_dark {
@@ -25,4 +26,27 @@
     position: absolute;
     z-index: 1;
     border-radius: 25px;
+}
+
+@media screen and (max-width: 991px) {
+    
+    .BannerAbout {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .BannerAbout {
+        margin-top: 16px;
+    }
+    
+    .BannerAbout_img {
+        background: url("../assets/Banner_About_Mobile.png");
+        width: 336px;
+    }
+
+    .BannerAbout_bg_dark {
+        width: 336px;
+    }
 }

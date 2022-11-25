@@ -6,3 +6,17 @@
     margin: 40px auto;
     padding: 56px 50px;
 }
+
+@media screen and (max-width: 991px) {
+    
+    .card_div {
+        padding: 36px 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .card_div {
+        padding: 28px 25px;
+    }
+}

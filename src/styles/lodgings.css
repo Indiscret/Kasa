@@ -85,10 +85,65 @@
 .Dropdown_btn {
     font-size: 18px;
     border-radius: 10px;
-    height: 52px;
     font-weight: 500;
 }
 .Dropdown_equipement {
     list-style-type: none;
     padding-left: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .Lodgings {
+        flex-direction: column;
+    }
+
+    .host_contain {
+        flex-direction: row-reverse;
+    }
+    
+    .rating {
+        margin-left: 0;
+    }
+
+    .Dropdown_lodgings {
+        display: block;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .Lodgings_contain {
+        margin: 0;
+    }
+
+    .Lodgings_title {
+        font-size: 18px;
+    }
+
+    .Lodgings_location {
+        font-size: 14px;
+    }
+
+    .Lodgings_tag {
+        margin-bottom: 10px;
+    }
+
+    .host_name {
+        font-size: 15px;
+    }
+
+    .host_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .rating {
+        margin: 10px 0 0;
+    }
+
+    .rating_star {
+        width: 14px;
+        padding-left: 0;
+    }
 }

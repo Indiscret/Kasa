@@ -34,3 +34,42 @@
     z-index: 1;
     border-radius: 25px;
 }
+
+@media screen and (max-width: 991px) {
+    
+    .BannerHome {
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    .BannerHome_title {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .BannerHome {
+        margin-top: 16px;
+        height: 111px;
+    }
+
+    .BannerHome_bg_dark {
+        height: 111px;
+        width: 335px;
+        border-radius: 10px;
+    }
+
+    .BannerHome_img {
+        background: url("../assets/Banner_Home_Mobile.png");
+        height: 111px;
+        width: 335px;
+        border-radius: 10px;
+    }
+
+    .BannerHome_title {
+        font-size: 24px;
+        height: 48px;
+        width: 217px;
+    }
+}

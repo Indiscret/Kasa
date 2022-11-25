@@ -1,4 +1,3 @@
-import "../../styles/about.css";
 import BannerAbout from '../../components/Banner/bannerAbout';
 import AboutDropdown from "../../components/Dropdown/aboutDropdown";
 import { accordion } from '../../datas/accordion';
