@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Logo from '../../assets/Logo_dark.png';
-import "../../styles/header.css";
+import "../../styles/Header.css";
 
 function Header() {
 
@@ -12,9 +12,9 @@ function Header() {
             <nav className="Header_nav">
               <ul>
                <li className="Header_link"><NavLink to="/" style={({ isActive }) =>
-              isActive ? underline : undefined } end>Accueil</NavLink></li>
+              isActive ? underline : undefined }>Accueil</NavLink></li>
                 <li className="Header_link"><NavLink to="/about" style={({ isActive }) =>
-              isActive ? underline : undefined } end>A Propos</NavLink></li>
+              isActive ? underline : undefined }>A Propos</NavLink></li>
               </ul>
             </nav>
         </header>

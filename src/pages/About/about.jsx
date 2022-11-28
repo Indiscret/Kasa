@@ -1,11 +1,11 @@
-import BannerAbout from '../../components/Banner/bannerAbout';
-import AboutDropdown from "../../components/Dropdown/aboutDropdown";
-import { accordion } from '../../datas/accordion';
+import Banner from '../../components/Banner/Banner';
+import AboutDropdown from "../../components/Dropdown/Dropdown";
+import { accordion } from '../../datas/Accordion';
 
 function About () {
     return (
     <div>
-        <BannerAbout/>
+        <Banner/>
         <div className="Dropdown">
             {accordion.map (({title, content}) => (
                 <AboutDropdown title={title} content={content} />

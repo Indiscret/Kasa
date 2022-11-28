@@ -1,11 +1,11 @@
-import BannerHome from '../../components/Banner/bannerHome';
-import Card from '../../components/Card/card';
-import '../../styles/home.css';
+import Banner from '../../components/Banner/Banner';
+import Card from '../../components/Card/Card';
+import '../../styles/Home.css';
 
 function Home() {
     return (
         <div className='home_div'>
-            <BannerHome/>
+            <Banner/>
             <div className='card_div'>
                 <Card/>
             </div>

@@ -1,4 +1,4 @@
-import '../../styles/aboutDropdown.css';
+import '../../styles/AboutDropdown.css';
 import { useState } from 'react';
 import IconDropdown from '../../assets/Icon_Dropdown.png';
 

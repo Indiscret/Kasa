@@ -1,9 +1,9 @@
-import '../../styles/carousel.css';
-import '../../styles/lodgings.css'
-import { lodgingsList } from '../../datas/lodgings';
+import '../../styles/Carousel.css';
+import '../../styles/Lodgings.css'
+import { lodgingsList } from '../../datas/Lodgings';
 import { Navigate, useParams } from 'react-router-dom';
-import Dropdown from '../../components/Dropdown/aboutDropdown';
-import Carousel from '../../components/Carousel/carousel';
+import Dropdown from '../../components/Dropdown/Dropdown';
+import Carousel from '../../components/Carousel/Carousel';
 import EmptyStar from "../../assets/Rating_Empty.png";
 import FullStar from "../../assets/Rating_Full.png";
 

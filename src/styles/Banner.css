@@ -1,12 +1,19 @@
-.BannerAbout {
+.Banner {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 223px;
-    margin-top: 20px;
+    margin-top: 63px;
 }
 
-.BannerAbout_bg_dark {
+.Banner_title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 500;
+    z-index: 3;
+}
+
+.Banner_bg_dark {
     height: 223px;
     width: 100%;
     max-width: 1240px;
@@ -18,8 +25,7 @@
     z-index: 2;
 }
 
-.BannerAbout_img {
-    background: url('../assets/Banner_About_Desktop.png');
+.Banner_img {
     height: 223px;
     width: 100%;
     max-width: 1240px;
@@ -30,23 +36,38 @@
 
 @media screen and (max-width: 991px) {
     
-    .BannerAbout {
+    .Banner {
+        height: 200px;
         margin-top: 30px;
+    }
+
+    .Banner_title {
+        font-size: 38px;
     }
 }
 
 @media screen and (max-width: 767px) {
-
-    .BannerAbout {
-        margin-top: 16px;
-    }
     
-    .BannerAbout_img {
-        background: url("../assets/Banner_About_Mobile.png");
-        width: 336px;
+    .Banner {
+        margin-top: 16px;
+        height: 111px;
     }
 
-    .BannerAbout_bg_dark {
-        width: 336px;
+    .Banner_bg_dark {
+        height: 111px;
+        width: 335px;
+        border-radius: 10px;
+    }
+
+    .Banner_img {
+        height: 111px;
+        width: 335px;
+        border-radius: 10px;
+    }
+
+    .Banner_title {
+        font-size: 24px;
+        height: 48px;
+        width: 217px;
     }
 }

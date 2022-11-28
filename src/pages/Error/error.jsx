@@ -1,4 +1,4 @@
-import ErrorNotfound from '../../components/Error/error';
+import ErrorNotfound from '../../components/Error/Error';
 
 function Error() {
     return (
